@@ -1,0 +1,53 @@
+/* Boostrap Breakpoints */
+// xs= 0-767 pixels
+// sm = 768-991 pixels
+// md = 992-1199 pixels
+// lg = 1200 pixels and up
+
+/* variables */
+$teal-dark: rgb(35, 115, 120);
+$teal-light:  rgb(34, 153, 165);
+$grey: rgb(170, 170, 170);
+$grey-light: rgb(221, 221, 221);
+
+
+html{
+  body {
+    font-family: 'Open Sans', sans-serif;
+    header {
+      .navbar {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border-radius: 0;
+        .navbar-brand{
+          height: 6rem;
+        }
+        .btn-default {
+          background-color: $teal-dark;
+          color: white;
+        }
+      }
+      .navbar-form{
+        margin: 0;
+        background-color: $grey-light;
+      }
+    }
+    main{
+      .jumbotron{
+        padding: 0;
+        .btn-block {
+          background-color: $teal-dark;
+          color: white;
+          letter-spacing: .25rem;
+          border-radius: 0;
+        }
+      }
+      .select-drop {
+        width: 100%;
+      }
+    }
+    footer {
+      background-color: $teal-light;
+    }
+  }
+}

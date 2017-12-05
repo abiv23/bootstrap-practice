@@ -1,0 +1,29 @@
+/* Boostrap Breakpoints */
+/* variables */
+html body {
+  font-family: 'Open Sans', sans-serif; }
+  html body header .navbar {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-radius: 0; }
+    html body header .navbar .navbar-brand {
+      height: 6rem; }
+    html body header .navbar .btn-default {
+      background-color: #237378;
+      color: white; }
+  html body header .navbar-form {
+    margin: 0;
+    background-color: #dddddd; }
+  html body main .jumbotron {
+    padding: 0; }
+    html body main .jumbotron .btn-block {
+      background-color: #237378;
+      color: white;
+      letter-spacing: .25rem;
+      border-radius: 0; }
+  html body main .select-drop {
+    width: 100%; }
+  html body footer {
+    background-color: #2299a5; }
+
+/*# sourceMappingURL=app.css.map */
