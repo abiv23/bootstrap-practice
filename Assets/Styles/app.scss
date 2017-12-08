@@ -15,20 +15,34 @@ html{
   body {
     font-family: 'Open Sans', sans-serif;
     header {
-      .navbar {
-        padding-bottom: 0;
-        margin-bottom: 0;
-        border-radius: 0;
-        .navbar-brand{
-          height: 6rem;
+      .logo{
+        display: flex;
+        width: 100%;
+        margin: 1rem 0;
+        padding-left: 0;
+        max-height: 3rem;
+      }
+      .mobile-contact-account-container{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1rem;
+        height: 100%;
+        .mobile-nav{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 0 2rem 0 2rem;
+          width: 100%;
         }
-        .btn-default {
-          background-color: $teal-dark;
-          color: white;
+        .nav-end {
+          margin-right: 0;
+          .center-end {
+            display: flex;
+            align-self: center;
+          }
         }
       }
-      .navbar-form{
-        margin: 0;
+      .nav-form{
         background-color: $grey-light;
       }
     }
